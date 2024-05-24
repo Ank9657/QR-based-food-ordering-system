@@ -1,0 +1,101 @@
+.cart-seaction {
+  margin-top: 5rem;
+}
+.cart-seaction .shopping-cart-title h3 {
+  font-size: 21.5px;
+  font-weight: 500;
+}
+.cart-seaction .table-title .table-title {
+  font-size: 18px;
+  font-weight: 400;
+}
+.cart-seaction .cartitems {
+  align-items: center;
+}
+.cart-seaction .cartitems .image-div {
+  display: flex;
+  flex-direction: column;
+}
+.cart-seaction .cartitems .image-div img {
+  width: 160px;
+  height: 100px;
+  border-radius: 3px;
+  object-fit: fill;
+}
+.cart-seaction .cartitems .item-content {
+  font-size: 16px;
+}
+.cart-seaction .cartitems .inc-dec-btn button {
+  font-size: 17px;
+  border-radius: 3px;
+  width: 25px;
+}
+.order-summary .summary-title {
+  font-size: 21.5px;
+  font-weight: 500;
+}
+.order-summary p {
+  font-size: 18px;
+}
+.cart-seaction .empty-cart .empty-cart-img {
+  width: 400px;
+  height: 450px;
+}
+.cart-seaction .empty-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cart-seaction .empty-cart span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 1rem;
+  color: #807d7d;
+}
+.cart-seaction .empty-cart p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 6px;
+  color: #8d8a8a;
+}
+.cart-seaction .back-to-home {
+  background-color: #10b981;
+  margin-bottom: 1rem;
+  width: 250px;
+  height: 42px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 5px;
+  line-height: 24px;
+}
+
+@media (max-width: 600px) {
+  .cart-seaction .shopping-cart-title h3 {
+    font-size: 19px;
+  }
+  .order-summary .summary-title {
+    font-size: 19px;
+  }
+  .cart-seaction .table-title .table-title {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .cart-seaction .cartitems .image-div img {
+    width: 70px;
+    height: 50px;
+  }
+  .cart-seaction .cartitems .item-content {
+    font-size: 14.5px;
+  }
+  .cart-seaction .cartitems .inc-dec-btn button {
+    font-size: 14px;
+    border-radius: 0px;
+    width: 20px;
+  }
+  .cart-seaction .empty-cart .empty-cart-img {
+    width: 340px;
+    height: 400px;
+  }
+}

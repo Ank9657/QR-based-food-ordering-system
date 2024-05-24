@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.onrender.restobaba.twa",
+        "sha256_cert_fingerprints": ["C5:EF:04:F8:09:BF:57:97:31:A9:31:FC:E4:39:8F:31:6B:95:5C:14:90:F3:17:28:A6:34:8D:60:84:A4:B0:3A"]
+      }
+    }]
